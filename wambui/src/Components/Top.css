@@ -1,0 +1,13 @@
+.ms-auto{
+    gap: 3rem;
+}
+/* Add styles for the left-aligned text */
+.navbar-left {
+    color: white; /* Change color if needed */
+    font-size: 1rem; /* Adjust font size as needed */
+    font-weight: bold;
+    padding: o.5rem 0rem; /* Adjust padding as needed */
+    margin-right: 1rem;
+  }
+
+

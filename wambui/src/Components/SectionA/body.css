@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+.quote{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 7rem;
+
+}
+
+.background-image {
+    position: relative;
+    background-image: url('https://websitedemos.net/law-02/wp-content/uploads/sites/44/2020/07/hero-bg.jpg');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 40rem; 
+    width: auto;
+}
+
+
+  
+  
+  

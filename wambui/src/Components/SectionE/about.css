@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+.paragraph{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.law_img{
+    width: 20rem; 
+    height: auto; 
+    margin-top: 2rem;
+}
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+}
+
+.about_header{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.heading-two{
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.paragraph-vision{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.paragraph-why-us{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.heading-one{
+    text-align: center;
+}
+
+
+.scrolling-words {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s, transform 0.5s;
+}
+  
+.scrolling-words.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Existing styles */
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+    .about_header {
+      font-size: 1.5rem;
+    }
+  
+    .about-container {
+      flex-direction: column;
+    }
+  
+    .paragraph,
+    .law_img {
+      width: 100%; /* Make text and image take full width */
+    }
+}
+.s{
+    background-color: rgb(223, 223, 223);
+}
+
+.a{
+    background-color: rgb(223, 223, 223);   
+}
